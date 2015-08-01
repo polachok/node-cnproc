@@ -1,7 +1,7 @@
-Linux process connector
-=======================
+Linux process event connector
+=============================
 
-Allows to monitor fork/exec/exit/uid change events.
+Allows to monitor fork/exec/exit/uid change events (see http://lwn.net/Articles/157150/).
 
 Example:
 
