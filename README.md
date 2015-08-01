@@ -9,6 +9,7 @@ Example:
 		c = cnproc.createConnector();
 		c.on('fork', function(ppid, ptgid, pid, tgid) {
 			 console.log("fork: {" + "ppid: " + ppid + " ptgid: " + ptgid + "pid: " + pid + "ptgid: " + tgid);
+			 c.close(); // close after first event
 		});
 		c.connect();
 
