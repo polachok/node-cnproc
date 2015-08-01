@@ -24,5 +24,6 @@ exit
 ----
 Callback arguments: pid, tgid, exit_code.
 
-uid:
+uid
+---
 Callback arguments: pid, tgid, old uid, new uid.
